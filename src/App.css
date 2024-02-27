@@ -1,38 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 .App {
-  text-align: center;
+  background: rgb(214, 226, 92);
+  background: linear-gradient(0deg, rgba(214, 226, 92, 1) 3%, rgba(255, 255, 255, 1) 87%);
+  width: 100%;
+  font-family: "Lora", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.header_Logo {
+  display: flex;
+  justify-content: center;
+}
+
+.header_Logo img {
+  width: 67%;
+}
+
+.info_container {
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trophy {
+  /* border: 1px solid; */
+  width: 50%;
+}
+
+.achivement {
+  /* border: 1px solid blue; */
+  display: grid;
+  white-space: normal;
+  width: 100%;
+  font-size: 19px;
+  font-weight: 500;
+
+}
+
+
+.firstContainer {
+  word-spacing: 1%;
+}
+
+.photoContainer {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.photoContainer img {
+  width: 95%;
+}
+
+.lastContainer {
+  margin-top: 5%;
+  font-weight: 600;
+}
+
+.trophy img {
+  /* border: 1px solid; */
+  width: 100%;
+}
+
+.footer-product {
+  border-top: 2px solid red;
+  color: black;
+  height: fit-content;
+  width: 98%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin: 1%;
+  font-weight: 500;
+}
+
+.footer-product h {
+  padding: 1% 0;
+  font-size: large;
+  font-weight: 700;
+
+}
+
+.footer {
+  background-color: red;
   color: white;
+  font-size: large;
+  padding: 1% 0;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.social a {
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.website a {
+  color: white;
+  text-decoration: none;
+}
+
+.display_product {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 5%;
+  white-space: normal;
+
+}
+
+.product_list img {
+  width: 95%;
+  padding: 2%;
+}
+
+.product_heading {
+  font-size: large;
+  font-weight: 600;
+}
+
+.product_title {
+  font-size: large;
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 240px) and (max-width: 767px) {
+
+  .App {
+    font-size: small;
   }
-  to {
-    transform: rotate(360deg);
+
+  .footer {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
   }
+
+  .footer-product {
+    font-size: 10px;
+    border-top: 1px solid red;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_Logo img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .trophy {
+    width: 35%;
+    height: 50%;
+  }
+
+  .achivement {
+    display: grid;
+    white-space: normal;
+    width: 70%;
+    height: 50%;
+  }
+
+  .photoContainer {
+    margin-left: 0;
+  }
+
+  .firstContainer,
+  .lastContainer {
+    font-size: 10px;
+  }
+
+  .product_heading {
+    font-size: 8px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .product_title {
+    font-size: 8px;
+    font-weight: 600;
+  }
+
 }

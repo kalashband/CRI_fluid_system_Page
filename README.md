@@ -1,3 +1,10 @@
+
+# React Based Web Page 
+[click here](https://gentle-lollipop-9fd1f5.netlify.app/)
+
+Reactjs , React DOM, Commponent, CSS TechStack is used.
+
+![Alt text](https://github.com/kalashband/CRI_fluid_system_Page/blob/master/src/Utils/ToBeConverted.png?raw=true)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
